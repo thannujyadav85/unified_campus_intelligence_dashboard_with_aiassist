@@ -1,0 +1,14 @@
+[project]
+name = "library"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "certifi>=2026.5.20",
+    "dnspython>=2.8.0",
+    "fastmcp>=3.4.2",
+    "pymongo>=4.17.0",
+    "requests>=2.34.2",
+]
