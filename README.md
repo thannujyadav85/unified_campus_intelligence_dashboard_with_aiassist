@@ -4,7 +4,7 @@ An integrated AI assistant gateway for IIT Roorkee students built with FastAPI, 
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 The system consists of three main layers working together in real-time:
 
@@ -26,7 +26,7 @@ graph TD
 
 ---
 
-## 📂 Project Folder Structure
+## Project Folder Structure
 
 ```
 Unified-Campus-Intelligence-Dashboard-with-AI-Assistant/
@@ -62,16 +62,16 @@ Unified-Campus-Intelligence-Dashboard-with-AI-Assistant/
 
 ---
 
-## 🔐 Role-Based Access Control (RBAC)
+## Role-Based Access Control (RBAC)
 
 The application supports two user profiles selectable at login:
-* **🎓 Student Profile (Read-Only):** Can query calendar deadlines, check cafeteria menus, search library books, and list events. If a student attempts to request a write action (such as changing menus or posting events), the gateway blocks the request and returns a `Permission Denied` warning message.
-* **🛡️ Admin Profile (Read & Write):** Full administration privileges. Can execute database modifications, add events, and update cafeteria menus.
+* **Student Profile (Read-Only):** Can query calendar deadlines, check cafeteria menus, search library books, and list events. If a student attempts to request a write action (such as changing menus or posting events), the gateway blocks the request and returns a `Permission Denied` warning message.
+* **Admin Profile (Read & Write):** Full administration privileges. Can execute database modifications, add events, and update cafeteria menus.
 
 
 ---
 
-## 📦 Python & Node.js Packages Used
+## Python & Node.js Packages Used
 
 ### Core Backend & Web API
 * **`fastapi` / `uvicorn`**: High-performance ASGI web framework and server for hosting the API Gateway.
@@ -97,7 +97,7 @@ The application supports two user profiles selectable at login:
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 1. **Intelligent Role Selection & Login Simulation**: Choose between a *Student Profile* and *Admin Console* to test various access scenarios.
 2. **Context-Aware Campus Agent**: Persists student context (Program, Major Department, and Academic Cycle Year) and appends this context behind the scenes to yield personalized query results.
@@ -148,7 +148,7 @@ The application supports two user profiles selectable at login:
 
 ---
 
-## 🚀 Deployed Demo Link
+## Deployed Demo Link
 
 The frontend web application is deployed on Vercel:
 
